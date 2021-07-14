@@ -283,7 +283,6 @@ header .hero-right-side img {
   width: 100%;
   height: 100%;
   padding: 8rem 15.6rem;
-  padding-bottom: 0;
 }
 .main-sofware {
   width: 100%;
@@ -332,4 +331,68 @@ header .hero-right-side img {
 .main-sofware .right-side-software img {
   width: 100%;
   height: 100%;
+}
+/* ============================================Footer section styles================
+================================= */
+
+.footer-section {
+  width: 100%;
+  height: 100%;
+  padding: 8rem 15.6rem;
+  padding-bottom: 6rem;
+}
+.footer-section .main-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer-section .main-content .footer-logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.footer-section .main-content .footer-logo img {
+  width: 48.3rem;
+  height: 11rem;
+}
+.footer-section .main-content .social-links {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+.footer-section .main-content .social-links a {
+  margin-right: 1.4rem;
+  width: 3.2rem;
+  background: #ecedf1;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  padding: 0.3rem 0rem;
+}
+.footer-section .main-content .social-links a:hover li {
+  color: black;
+}
+
+.footer-section .main-content .social-links a li {
+  text-align: center;
+  color: Gray;
+  transition: all 0.2s;
+}
+.copyright {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.copyright span {
+  width: 23.6rem;
+  height: 3.1rem;
+  text-align: center;
+  font-size: 1.8rem;
 }

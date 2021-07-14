@@ -4,7 +4,8 @@
   .card-section,
   .highlight,
   .counter-player,
-  .software-section {
+  .software-section,
+  .footer-section {
     padding: 8rem 1.6rem;
   }
   .main-hero-section {
@@ -159,16 +160,27 @@
     max-width: 100%;
     height: 100%;
   }
+  /* ============================================Footer section styles================
+================================= */
+  .footer-section .main-content .footer-logo img {
+    max-width: 100%;
+    height: 100%;
+  }
+  .footer-section .main-content .social-links a {
+    max-width: 100%;
+  }
 }
 
-/* ======================TAblet devices========================================
-===================================== */
+/***********************************************
+*******************TAblet devices***************
+************************************************/
 @media only screen and (min-width: 688px) and (max-width: 1024px) {
   header,
   .card-section,
   .highlight,
   .counter-player,
-  .software-section {
+  .software-section,
+  .footer-section {
     padding: 8rem 1.6rem;
   }
   header .hero-left-side .hero-title {
@@ -237,6 +249,12 @@
   }
   /* ============Software right side==============*/
   .main-sofware .right-side-software img {
+    max-width: 100%;
+    height: 100%;
+  }
+  /* ============================================Footer section styles================
+================================= */
+  .footer-section .main-content .footer-logo img {
     max-width: 100%;
     height: 100%;
   }
