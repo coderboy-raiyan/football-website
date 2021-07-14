@@ -2,7 +2,9 @@
 @media only screen and (max-width: 688px) {
   header,
   .card-section,
-  .highlight {
+  .highlight,
+  .counter-player,
+  .software-section {
     padding: 8rem 1.6rem;
   }
   .main-hero-section {
@@ -100,21 +102,81 @@
     max-width: 100%;
     height: auto;
   }
+  /*==================================== Counter plyaer Styles========================
+==================================== */
+  .counter-player {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+  }
+  .conter {
+    width: 100%;
+    margin-bottom: 5rem;
+  }
+  .counter-player h1 {
+    width: 100%;
+    font-size: 4rem;
+  }
+  .counter-player p {
+    font-size: 1.6rem;
+  }
+
+  /*=================== Our software styles ========================
+======================== */
+  .main-sofware {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+  }
+  /* ================Software left side styles========================= */
+  .main-sofware .left-side-software {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 3rem;
+  }
+  .main-sofware .left-side-software h1 {
+    width: 100%;
+    font-size: 3rem;
+  }
+  .main-sofware .left-side-software p {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .main-sofware .left-side-software h3 {
+    font-size: 1.4rem;
+    color: var(--paragraph-color);
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+  /* ================Software right side styles========================= */
+  .main-sofware .right-side-software {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-sofware .right-side-software img {
+    max-width: 100%;
+    height: 100%;
+  }
 }
 
-/* ======================TAblet devices======================= */
-@media only screen and (min-width: 688px) and (max-width: 992px) {
+/* ======================TAblet devices========================================
+===================================== */
+@media only screen and (min-width: 688px) and (max-width: 1024px) {
   header,
   .card-section,
-  .highlight {
+  .highlight,
+  .counter-player,
+  .software-section {
     padding: 8rem 1.6rem;
   }
   header .hero-left-side .hero-title {
-    width: 27.8rem;
+    width: 33rem;
     height: 100%;
-    font-size: 3.6rem;
-    line-height: 5rem;
-    margin-bottom: 2rem;
+    font-size: 4rem;
+    line-height: 6rem;
+    margin-bottom: 3rem;
   }
   header .hero-right-side img {
     max-width: 100%;
@@ -142,5 +204,40 @@
   .main-highlight .left-highlight-side p {
     width: 31rem;
     margin-bottom: 2rem;
+  }
+  /*==================================== Counter plyaer Styles========================
+==================================== */
+  .conter {
+    width: 50%;
+    margin-bottom: 5rem;
+  }
+  .counter-player {
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+  }
+  /*=================== Our software styles ========================
+======================== */
+  .main-sofware .left-side-software {
+    width: 50%;
+    height: 100%;
+  }
+  .main-sofware .left-side-software h1 {
+    width: 100%;
+    font-size: 3rem;
+  }
+  .main-sofware .left-side-software p {
+    width: 100%;
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+  }
+  .main-sofware .left-side-software h3 {
+    font-size: 1.3rem;
+    width: 100%;
+  }
+  /* ============Software right side==============*/
+  .main-sofware .right-side-software img {
+    max-width: 100%;
+    height: 100%;
   }
 }

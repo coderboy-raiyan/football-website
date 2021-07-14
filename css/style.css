@@ -125,10 +125,29 @@ header .hero-right-side {
   justify-content: space-between;
   align-items: center;
 }
+
 header .hero-right-side img {
   width: 100%;
   height: auto;
   margin-left: 4rem;
+  animation: updwon 0.9s linear infinite alternate;
+  -webkit-animation: updwon 0.9s linear infinite alternate;
+}
+@keyframes updwon {
+  0% {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1rem);
+    -webkit-transform: translateY(1rem);
+    -moz-transform: translateY(1rem);
+    -ms-transform: translateY(1rem);
+    -o-transform: translateY(1rem);
+  }
 }
 
 /* ============================ Card section styles here ====================
@@ -220,4 +239,97 @@ header .hero-right-side img {
 .main-highlight .right-highlight-side img {
   width: 100%;
   height: auto;
+}
+
+/*==================================== Counter plyaer Styles========================
+==================================== */
+.counter-player {
+  width: 100%;
+  height: 100%;
+  padding: 8rem 15.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: url(../img/bg-pattran.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(55, 53, 66);
+}
+
+.counter-player h1 {
+  font-size: 5rem;
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: -6px -6px 0 #373542, -6px -3px 0 #373542, -6px 0px 0 #373542,
+    -6px 3px 0 #373542, -6px 6px 0 #373542, -3px -6px 0 #373542,
+    -3px -3px 0 #373542, -3px 0 0 #373542, -3px 3px 0 #373542,
+    -3px 6px 0 #373542, 0 -6px 0 #373542, 0 -3px 0 #373542, 0 0 0 #373542,
+    0 3px 0 #373542, 0 6px 0 #373542, 3px -6px 0 #373542, 3px -3px 0 #373542,
+    3px 0 0 #373542, 3px 3px 0 #373542, 3px 6px 0 #373542, 6px -6px 0 #373542,
+    6px -3px 0 #373542, 6px 0 0 #373542, 6px 3px 0 #373542, 6px 6px 0 #373542;
+}
+.counter-player p {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #ffcc33;
+}
+
+/*=================== Our software styles Matches========================
+======================== */
+.software-section {
+  width: 100%;
+  height: 100%;
+  padding: 8rem 15.6rem;
+  padding-bottom: 0;
+}
+.main-sofware {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* ================Software left side styles========================= */
+
+.main-sofware .left-side-software {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.main-sofware .left-side-software h1 {
+  width: 100%;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+.main-sofware .left-side-software p {
+  width: 50rem;
+  margin-bottom: 2rem;
+}
+.main-sofware .left-side-software h3 {
+  font-size: 1.6rem;
+  color: var(--paragraph-color);
+  margin-bottom: 2rem;
+}
+.main-sofware .left-side-software .fas {
+  margin-right: 2rem;
+}
+/* ================Software rght side styles========================= */
+
+.main-sofware .right-side-software {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.main-sofware .right-side-software img {
+  width: 100%;
+  height: 100%;
 }
