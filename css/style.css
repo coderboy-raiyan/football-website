@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/*============ CSS custom styles ============= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  --main-color: #0a0826;
+  --button-background: #e02c6d;
+  --paragraph-color: #6c6c6c;
+}
+h1,
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.6rem;
+}
+p,
+li,
+a,
+button {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+p {
+  line-height: 2.6rem;
+  color: var(--paragraph-color);
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  background: var(--button-background);
+  color: #fff;
+  padding: 1rem 2.4rem;
+  border: none;
+  cursor: pointer;
+}
+
+/*================================= Header sction styles==================
+========================== */
+
+header {
+  width: 100%;
+  height: 100%;
+  padding: 8rem 15.6rem;
+  background: #2d25a0;
+}
+.main-hero-section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/*======= Hero left side styles======== */
+
+header .hero-left-side {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+header .hero-left-side .hero-title {
+  width: 48.5rem;
+  height: 25.5rem;
+  font-size: 6.4rem;
+  font-weight: 700;
+  line-height: 8rem;
+  color: #fff;
+}
+.common-btn {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 500;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+}
+header .hero-left-side .common-btn:hover {
+  background: #fff;
+  color: #000;
+}
+
+header .hero-left-side .common-btn:hover .fas {
+  transform: translateX(1rem);
+  -webkit-transform: translateX(1rem);
+  -moz-transform: translateX(1rem);
+  -ms-transform: translateX(1rem);
+  -o-transform: translateX(1rem);
+}
+
+.common-btn .fas {
+  padding-left: 1rem;
+  font-weight: 600;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+}
+
+/*======= Hero right side styles======== */
+
+header .hero-right-side {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .hero-right-side img {
+  width: 100%;
+  height: auto;
+  margin-left: 4rem;
+}
+
+/* ============================ Card section styles here ====================
+========================*/
+.card-section {
+  width: 100%;
+  height: 100%;
+  padding: 8rem 15.6rem;
+}
+.main-card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.main-card .card {
+  width: 31%;
+  height: 100%;
+  padding: 1.5rem;
+  background: #fff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  margin-bottom: 2.7rem;
+}
+.main-card .card img {
+  width: 100%;
+  height: auto;
+}
+
+.main-card .card h2 {
+  font-size: 2.8rem;
+  line-height: 4rem;
+  width: 30rem;
+  margin: 1rem 0;
+  text-transform: capitalize;
+}
+.main-card .card p {
+  width: 29rem;
+  font-size: 1.6rem;
+  margin: 1rem 0;
+}
+
+/*  ==================Higlights section styles=================
+======================== */
+
+.highlight {
+  width: 100%;
+  height: 100%;
+  padding: 8rem 15.6rem;
+}
+.main-highlight {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* ============Highlight left side=============== */
+
+.main-highlight .left-highlight-side {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.main-highlight .left-highlight-side h1 {
+  width: 47rem;
+  font-size: 4.8rem;
+  line-height: 6rem;
+  height: 12rem;
+  margin-bottom: 0.8rem;
+}
+.main-highlight .left-highlight-side p {
+  width: 40.4rem;
+  line-height: 2.8rem;
+  height: 13.3rem;
+}
+/* ============Highlight right side=============== */
+.main-highlight .right-highlight-side {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.main-highlight .right-highlight-side img {
+  width: 100%;
+  height: auto;
+}
